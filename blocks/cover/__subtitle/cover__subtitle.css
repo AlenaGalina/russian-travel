@@ -20,3 +20,16 @@
         top: 145px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 288px;
+        z-index: 5;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        top: 49px;
+    }
+}
