@@ -2,3 +2,17 @@
     max-width: 460px;
     grid-row: span 2;
 }
+
+@media screen and (max-width: 1024px){
+    .place__image {
+        max-width: 440px;
+        grid-row: span 2;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .place__image {
+        max-width: 340px;
+        grid-row: span 2;
+    }
+}

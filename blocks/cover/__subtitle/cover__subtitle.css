@@ -8,3 +8,15 @@
     line-height: 22px;
     max-width: 360px;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        top: 225px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        top: 145px;
+    }
+}

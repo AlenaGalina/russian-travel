@@ -3,4 +3,19 @@
     flex-direction: row;
     margin: 0 auto;
     max-width: 1184px;
+    justify-content: space-between;
+    padding: 0 48px 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 0 24px 24px;
+        max-width: 720px;
+    }
 }

@@ -8,3 +8,15 @@
     position: relative;
     top: 245px;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        top: 195px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        top: 115px;
+    }
+}

@@ -8,3 +8,17 @@
     max-width: 1184px;
     min-height: 740px;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__background {
+        max-width: 1024px;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cover__background {
+        max-width: 768px;
+        min-height: 480px;
+    }
+}
