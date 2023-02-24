@@ -2,22 +2,20 @@
     font-size: 72px;
     line-height: 76px;
     max-width: 560px;
-    z-index: 5;
-    margin: 0 auto;
     text-align: center;
-    position: relative;
-    top: 245px;
+    color: white;
+    text-decoration: none;
+    z-index: 3;
+    margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__title {
-        top: 195px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__title {
-        top: 115px;
     }
 }
 
@@ -26,10 +24,5 @@
         font-size: 32px;
         line-height: 35px;
         max-width: 288px;
-        z-index: 5;
-        margin: 0 auto;
-        text-align: center;
-        position: relative;
-        top: 33px;
     }
 }

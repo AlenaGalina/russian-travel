@@ -1,23 +1,21 @@
 .cover__subtitle {
-    z-index: 4;
-    margin: 0 auto;
     text-align: center;
-    position: relative;
-    top: 275px;
     font-size: 18px;
     line-height: 22px;
     max-width: 360px;
+    color: white;
+    text-decoration: none;
+    z-index: 3;
+    margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
-        top: 225px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__subtitle {
-        top: 145px;
     }
 }
 
@@ -26,10 +24,5 @@
         font-size: 14px;
         line-height: 16px;
         max-width: 288px;
-        z-index: 5;
-        margin: 0 auto;
-        text-align: center;
-        position: relative;
-        top: 49px;
     }
 }

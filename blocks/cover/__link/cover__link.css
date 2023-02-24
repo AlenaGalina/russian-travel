@@ -1,0 +1,12 @@
+.cover__link {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    max-width: 1184px;
+    min-height: 740px;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}

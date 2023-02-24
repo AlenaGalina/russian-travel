@@ -1,26 +1,16 @@
 .place__image {
-    max-width: 460px;
+    max-width: 100%;
     grid-row: span 2;
 }
 
 @media screen and (max-width: 1024px){
     .place__image {
-        max-width: 440px;
         grid-row: span 2;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 560px){
     .place__image {
-        max-width: 340px;
-        grid-row: span 2;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .place__image {
-        max-width: 320px;
-        grid-row: span 2;
         margin: 0 0 32px;
     }
 }

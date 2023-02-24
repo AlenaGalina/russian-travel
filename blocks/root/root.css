@@ -3,4 +3,7 @@
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     text-rendering: optimizeLegibility;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
