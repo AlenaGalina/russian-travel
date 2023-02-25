@@ -38,10 +38,10 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/intro/__number/intro__number.css);
-@import url(../blocks/paddings/_height/paddings_height_bottom_s.css);
-@import url(../blocks/paddings/_height/paddings_height_bottom_m.css);
-@import url(../blocks/paddings/_height/paddings_height_bottom_l.css);
-@import url(../blocks/paddings/_height/paddings_height_top.css);
+@import url(../blocks/paddings/_height-bottom/paddings_height_bottom_l.css);
+@import url(../blocks/paddings/_height-bottom/paddings_height_bottom_m.css);
+@import url(../blocks/paddings/_height-bottom/paddings_height_bottom_s.css);
+@import url(../blocks/paddings/_height-top/paddings_height_top.css);
 @import url(../blocks/paddings/_width/paddings_width_narrow.css);
 @import url(../blocks/paddings/_width/paddings_width_wide.css);
 
