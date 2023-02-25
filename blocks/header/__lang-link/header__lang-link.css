@@ -1,14 +1,17 @@
 .header__lang-link {
     font-size: 24px;
-    line-height: 1.2;
+    line-height: 28px;
     font-weight: 300;
     color: #fff;
-    padding-left: 18px;
     text-decoration: none;
 }
 
 .header__lang-link:focus {
     text-decoration: underline;
+}
+
+.header__lang-link:hover {
+    opacity: 80%;
 }
 
 .header__lang-link:first-child {
@@ -18,5 +21,6 @@
 @media screen and (max-width: 767px) {
     .header__lang-link {
         font-size: 18px;
+        line-height: 20px;
     }
 }
