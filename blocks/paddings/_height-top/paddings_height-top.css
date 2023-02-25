@@ -1,9 +1,9 @@
-.paddings_height_top {
+.paddings_height-top {
     padding-top: 28px;
 }
 
 @media screen and (max-width: 767px) {
-    .paddings_height_top {
+    .paddings_height-top {
         padding-top: 16px;
     }
 }

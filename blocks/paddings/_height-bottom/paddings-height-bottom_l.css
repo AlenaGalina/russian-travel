@@ -1,15 +1,15 @@
-.paddings_height_bottom_l {
+.paddings_height-bottom_l {
     padding-bottom: 92px;
 }
 
 @media screen and (max-width: 1023px) {
-    .paddings_height_bottom_l {
+    .paddings_height-bottom_l {
         padding-bottom: 88px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .paddings_height_bottom_l {
+    .paddings_height-bottom_l {
         padding-bottom: 64px;
     }
 }
