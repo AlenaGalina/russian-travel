@@ -3,14 +3,14 @@
     grid-row: span 2;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1297px){
     .place__image {
         grid-row: span 2;
     }
 }
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 767px){
     .place__image {
-        margin: 0 0 32px;
+        padding-bottom: 32px;
     }
 }

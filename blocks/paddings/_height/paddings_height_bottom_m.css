@@ -1,3 +1,9 @@
 .paddings_height_bottom_m {
     padding-bottom: 56px;
 }
+
+@media screen and (max-width: 1297px) {
+    .paddings_height_bottom_m {
+        padding-bottom: 48px;
+    }
+}
