@@ -1,13 +1,17 @@
 .place {
     display: grid;
-    max-width: 984px;
     grid-template-columns: 460px 1fr;
     column-gap: 40px;
-    margin: 0 auto 80px;
-    padding: 0;
+    padding-bottom: 80px;
+    max-width: 984px;
+    margin: 0;
 }
 
-@media screen and (max-width: 1024px){
+.place:last-child {
+    padding-bottom: 0;
+}
+
+/* @media screen and (max-width: 1024px){
     .place {
         max-width: 928px;
         grid-template-columns: 440px 1fr;
@@ -32,4 +36,4 @@
         margin: 0 auto 50px;
         align-items: center;
     }
-}
+} */
