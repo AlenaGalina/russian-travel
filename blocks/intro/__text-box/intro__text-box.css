@@ -6,7 +6,6 @@
 @media screen and (max-width: 1297px) {
     .intro__text-box {
         padding-right: calc(100% / 5 );
-        max-width: 690px;
     }
 }
 

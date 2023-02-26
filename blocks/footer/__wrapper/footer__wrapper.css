@@ -8,7 +8,6 @@
 
 @media screen and (max-width: 767px) {
     .footer__wrapper {
-        display: flex;
         flex-direction: column;
         max-width: 288px;
         gap: 48px;

@@ -3,12 +3,6 @@
     grid-row: span 2;
 }
 
-@media screen and (max-width: 1297px){
-    .place__image {
-        grid-row: span 2;
-    }
-}
-
 @media screen and (max-width: 767px){
     .place__image {
         padding-bottom: 32px;
